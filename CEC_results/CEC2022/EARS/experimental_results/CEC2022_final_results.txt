@@ -1,0 +1,85 @@
+TrueSkill One-On-One rating:
+NL-SHADE-LBC - Mean(μ)=-57.8, Std-Dev(σ)=0.77 RI=[-59.33, -56.26]
+MTT-SHADE - Mean(μ)=-61.31, Std-Dev(σ)=0.77 RI=[-62.85, -59.77]
+EA4eigN100-10 - Mean(μ)=-61.46, Std-Dev(σ)=0.74 RI=[-62.93, -59.99]
+OMCSOMA - Mean(μ)=-62.06, Std-Dev(σ)=0.75 RI=[-63.56, -60.57]
+jSObinexpEig - Mean(μ)=-62.29, Std-Dev(σ)=0.74 RI=[-63.77, -60.8]
+IMPML-SHADE - Mean(μ)=-62.61, Std-Dev(σ)=0.76 RI=[-64.14, -61.09]
+S-LSHADE-DP - Mean(μ)=-62.81, Std-Dev(σ)=0.75 RI=[-64.32, -61.31]
+NLSOMACLP - Mean(μ)=-63.33, Std-Dev(σ)=0.76 RI=[-64.86, -61.8]
+ZOCMAES - Mean(μ)=-63.74, Std-Dev(σ)=0.78 RI=[-65.3, -62.17]
+Co-PPSO - Mean(μ)=-64.16, Std-Dev(σ)=0.81 RI=[-65.77, -62.55]
+IUMOEAII - Mean(μ)=-65.2, Std-Dev(σ)=0.78 RI=[-66.77, -63.63]
+NL-SHADE-RSP-MID - Mean(μ)=-65.56, Std-Dev(σ)=0.79 RI=[-67.14, -63.98]
+SPHH-Ensemble - Mean(μ)=-69.81, Std-Dev(σ)=0.89 RI=[-71.6, -68.02]
+
+TrueSkill Free-For-All rating:
+NL-SHADE-LBC - Mean(μ)=27.69, Std-Dev(σ)=0.61 RI=[26.47, 28.91]
+S-LSHADE-DP - Mean(μ)=27.47, Std-Dev(σ)=0.61 RI=[26.25, 28.68]
+IMPML-SHADE - Mean(μ)=26.69, Std-Dev(σ)=0.61 RI=[25.47, 27.9]
+EA4eigN100-10 - Mean(μ)=26.65, Std-Dev(σ)=0.6 RI=[25.45, 27.86]
+MTT-SHADE - Mean(μ)=26.1, Std-Dev(σ)=0.6 RI=[24.89, 27.31]
+ZOCMAES - Mean(μ)=25.94, Std-Dev(σ)=0.62 RI=[24.71, 27.17]
+jSObinexpEig - Mean(μ)=25.55, Std-Dev(σ)=0.6 RI=[24.34, 26.76]
+OMCSOMA - Mean(μ)=25.36, Std-Dev(σ)=0.6 RI=[24.15, 26.56]
+Co-PPSO - Mean(μ)=24.97, Std-Dev(σ)=0.61 RI=[23.76, 26.18]
+NLSOMACLP - Mean(μ)=24.88, Std-Dev(σ)=0.6 RI=[23.67, 26.09]
+NL-SHADE-RSP-MID - Mean(μ)=24.73, Std-Dev(σ)=0.61 RI=[23.5, 25.95]
+IUMOEAII - Mean(μ)=23.97, Std-Dev(σ)=0.61 RI=[22.75, 25.19]
+SPHH-Ensemble - Mean(μ)=21.93, Std-Dev(σ)=0.64 RI=[20.64, 23.21]
+
+Glicko2 rating:
+NL-SHADE-LBC - Rating=1,713.8 RD=50 ro=0.06 RI=[1613.78, 1813.78]
+EA4eigN100-10 - Rating=1,681.3 RD=50 ro=0.06 RI=[1581.35, 1781.35]
+MTT-SHADE - Rating=1,599 RD=50 ro=0.06 RI=[1499.04, 1699.04]
+jSObinexpEig - Rating=1,554.6 RD=50 ro=0.06 RI=[1454.64, 1654.64]
+IMPML-SHADE - Rating=1,537.6 RD=50 ro=0.06 RI=[1437.62, 1637.62]
+S-LSHADE-DP - Rating=1,534.3 RD=50 ro=0.06 RI=[1434.31, 1634.31]
+Co-PPSO - Rating=1,508.5 RD=50 ro=0.06 RI=[1408.51, 1608.51]
+ZOCMAES - Rating=1,489.2 RD=50 ro=0.06 RI=[1389.19, 1589.19]
+OMCSOMA - Rating=1,481.1 RD=50 ro=0.06 RI=[1381.12, 1581.12]
+NLSOMACLP - Rating=1,455.2 RD=50 ro=0.06 RI=[1355.17, 1555.17]
+NL-SHADE-RSP-MID - Rating=1,388.3 RD=50 ro=0.06 RI=[1288.28, 1488.28]
+IUMOEAII - Rating=1,348.5 RD=50 ro=0.06 RI=[1248.49, 1448.49]
+SPHH-Ensemble - Rating=1,208.5 RD=50 ro=0.06 RI=[1108.51, 1308.51]
+
+Game results:
+NL-SHADE-LBC [win=1912, lose=429, draw=1259]
+	 Against:{NL-SHADE-RSP-MID=[win=270, lose=29, draw=1], ZOCMAES=[win=136, lose=49, draw=115], jSObinexpEig=[win=86, lose=33, draw=181], S-LSHADE-DP=[win=269, lose=31, draw=0], Co-PPSO=[win=134, lose=29, draw=137], SPHH-Ensemble=[win=250, lose=50, draw=0], IMPML-SHADE=[win=158, lose=30, draw=112], NLSOMACLP=[win=106, lose=29, draw=165], EA4eigN100-10=[win=45, lose=56, draw=199], IUMOEAII=[win=270, lose=30, draw=0], MTT-SHADE=[win=88, lose=32, draw=180], OMCSOMA=[win=100, lose=31, draw=169]}
+	 Problems:{CEC2022F2D10k15=[win=305, lose=10, draw=45], CEC2022F5D10k15=[win=141, lose=0, draw=219], CEC2022F3D20k15=[win=189, lose=0, draw=171], CEC2022F3D10k15=[win=181, lose=0, draw=179], CEC2022F1D10k15=[win=134, lose=0, draw=226], CEC2022F1D20k15=[win=143, lose=0, draw=217], CEC2022F4D20k15=[win=342, lose=18, draw=0], CEC2022F2D20k15=[win=28, lose=331, draw=1], CEC2022F4D10k15=[win=288, lose=70, draw=2], CEC2022F5D20k15=[win=161, lose=0, draw=199]}
+EA4eigN100-10 [win=1524, lose=266, draw=1810]
+	 Against:{NL-SHADE-RSP-MID=[win=137, lose=17, draw=146], ZOCMAES=[win=157, lose=35, draw=108], jSObinexpEig=[win=103, lose=9, draw=188], S-LSHADE-DP=[win=58, lose=24, draw=218], Co-PPSO=[win=154, lose=8, draw=138], SPHH-Ensemble=[win=258, lose=42, draw=0], IMPML-SHADE=[win=154, lose=32, draw=114], NLSOMACLP=[win=121, lose=14, draw=165], IUMOEAII=[win=117, lose=13, draw=170], MTT-SHADE=[win=98, lose=13, draw=189], NL-SHADE-LBC=[win=56, lose=45, draw=199], OMCSOMA=[win=111, lose=14, draw=175]}
+	 Problems:{CEC2022F2D10k15=[win=152, lose=102, draw=106], CEC2022F5D10k15=[win=74, lose=0, draw=286], CEC2022F3D20k15=[win=99, lose=0, draw=261], CEC2022F3D10k15=[win=91, lose=0, draw=269], CEC2022F1D10k15=[win=43, lose=0, draw=317], CEC2022F1D20k15=[win=50, lose=0, draw=310], CEC2022F4D20k15=[win=272, lose=84, draw=4], CEC2022F2D20k15=[win=311, lose=27, draw=22], CEC2022F4D10k15=[win=305, lose=53, draw=2], CEC2022F5D20k15=[win=127, lose=0, draw=233]}
+MTT-SHADE [win=1500, lose=813, draw=1287]
+	 Against:{NL-SHADE-RSP-MID=[win=241, lose=59, draw=0], ZOCMAES=[win=121, lose=78, draw=101], jSObinexpEig=[win=33, lose=67, draw=200], S-LSHADE-DP=[win=226, lose=74, draw=0], Co-PPSO=[win=108, lose=55, draw=137], SPHH-Ensemble=[win=217, lose=83, draw=0], IMPML-SHADE=[win=106, lose=89, draw=105], NLSOMACLP=[win=81, lose=39, draw=180], EA4eigN100-10=[win=13, lose=98, draw=189], IUMOEAII=[win=241, lose=45, draw=14], NL-SHADE-LBC=[win=32, lose=88, draw=180], OMCSOMA=[win=81, lose=38, draw=181]}
+	 Problems:{CEC2022F2D10k15=[win=32, lose=301, draw=27], CEC2022F5D10k15=[win=141, lose=0, draw=219], CEC2022F3D20k15=[win=185, lose=8, draw=167], CEC2022F3D10k15=[win=181, lose=0, draw=179], CEC2022F1D10k15=[win=134, lose=0, draw=226], CEC2022F1D20k15=[win=143, lose=0, draw=217], CEC2022F4D20k15=[win=264, lose=96, draw=0], CEC2022F2D20k15=[win=74, lose=233, draw=53], CEC2022F4D10k15=[win=185, lose=175, draw=0], CEC2022F5D20k15=[win=161, lose=0, draw=199]}
+jSObinexpEig [win=1124, lose=745, draw=1731]
+	 Against:{NL-SHADE-RSP-MID=[win=117, lose=55, draw=128], ZOCMAES=[win=130, lose=72, draw=98], S-LSHADE-DP=[win=52, lose=68, draw=180], Co-PPSO=[win=105, lose=55, draw=140], SPHH-Ensemble=[win=218, lose=82, draw=0], IMPML-SHADE=[win=106, lose=85, draw=109], NLSOMACLP=[win=96, lose=38, draw=166], EA4eigN100-10=[win=9, lose=103, draw=188], IUMOEAII=[win=100, lose=34, draw=166], MTT-SHADE=[win=67, lose=33, draw=200], NL-SHADE-LBC=[win=33, lose=86, draw=181], OMCSOMA=[win=91, lose=34, draw=175]}
+	 Problems:{CEC2022F2D10k15=[win=22, lose=313, draw=25], CEC2022F5D10k15=[win=74, lose=0, draw=286], CEC2022F3D20k15=[win=99, lose=0, draw=261], CEC2022F3D10k15=[win=91, lose=0, draw=269], CEC2022F1D10k15=[win=43, lose=0, draw=317], CEC2022F1D20k15=[win=50, lose=0, draw=310], CEC2022F4D20k15=[win=256, lose=100, draw=4], CEC2022F2D20k15=[win=146, lose=191, draw=23], CEC2022F4D10k15=[win=216, lose=141, draw=3], CEC2022F5D20k15=[win=127, lose=0, draw=233]}
+IMPML-SHADE [win=1530, lose=1269, draw=801]
+	 Against:{NL-SHADE-RSP-MID=[win=178, lose=119, draw=3], ZOCMAES=[win=141, lose=84, draw=75], jSObinexpEig=[win=85, lose=106, draw=109], S-LSHADE-DP=[win=165, lose=132, draw=3], Co-PPSO=[win=127, lose=86, draw=87], SPHH-Ensemble=[win=247, lose=53, draw=0], NLSOMACLP=[win=127, lose=79, draw=94], EA4eigN100-10=[win=32, lose=154, draw=114], IUMOEAII=[win=199, lose=98, draw=3], MTT-SHADE=[win=89, lose=106, draw=105], NL-SHADE-LBC=[win=30, lose=158, draw=112], OMCSOMA=[win=110, lose=94, draw=96]}
+	 Problems:{CEC2022F2D10k15=[win=196, lose=145, draw=19], CEC2022F5D10k15=[win=141, lose=0, draw=219], CEC2022F3D20k15=[win=47, lose=313, draw=0], CEC2022F3D10k15=[win=58, lose=302, draw=0], CEC2022F1D10k15=[win=134, lose=0, draw=226], CEC2022F1D20k15=[win=83, lose=139, draw=138], CEC2022F4D20k15=[win=281, lose=79, draw=0], CEC2022F2D20k15=[win=258, lose=102, draw=0], CEC2022F4D10k15=[win=171, lose=189, draw=0], CEC2022F5D20k15=[win=161, lose=0, draw=199]}
+S-LSHADE-DP [win=1379, lose=1141, draw=1080]
+	 Against:{NL-SHADE-RSP-MID=[win=137, lose=6, draw=157], ZOCMAES=[win=140, lose=158, draw=2], jSObinexpEig=[win=68, lose=52, draw=180], Co-PPSO=[win=151, lose=149, draw=0], SPHH-Ensemble=[win=258, lose=42, draw=0], IMPML-SHADE=[win=132, lose=165, draw=3], NLSOMACLP=[win=131, lose=5, draw=164], EA4eigN100-10=[win=24, lose=58, draw=218], IUMOEAII=[win=117, lose=1, draw=182], MTT-SHADE=[win=74, lose=226, draw=0], NL-SHADE-LBC=[win=31, lose=269, draw=0], OMCSOMA=[win=116, lose=10, draw=174]}
+	 Problems:{CEC2022F2D10k15=[win=225, lose=54, draw=81], CEC2022F5D10k15=[win=74, lose=130, draw=156], CEC2022F3D20k15=[win=99, lose=81, draw=180], CEC2022F3D10k15=[win=91, lose=90, draw=179], CEC2022F1D10k15=[win=43, lose=138, draw=179], CEC2022F1D20k15=[win=50, lose=129, draw=181], CEC2022F4D20k15=[win=187, lose=173, draw=0], CEC2022F2D20k15=[win=326, lose=12, draw=22], CEC2022F4D10k15=[win=158, lose=200, draw=2], CEC2022F5D20k15=[win=126, lose=134, draw=100]}
+Co-PPSO [win=1342, lose=1283, draw=975]
+	 Against:{NL-SHADE-RSP-MID=[win=206, lose=94, draw=0], ZOCMAES=[win=122, lose=112, draw=66], jSObinexpEig=[win=55, lose=105, draw=140], S-LSHADE-DP=[win=149, lose=151, draw=0], SPHH-Ensemble=[win=231, lose=69, draw=0], IMPML-SHADE=[win=86, lose=127, draw=87], NLSOMACLP=[win=83, lose=79, draw=138], EA4eigN100-10=[win=8, lose=154, draw=138], IUMOEAII=[win=238, lose=61, draw=1], MTT-SHADE=[win=55, lose=108, draw=137], NL-SHADE-LBC=[win=29, lose=134, draw=137], OMCSOMA=[win=80, lose=89, draw=131]}
+	 Problems:{CEC2022F2D10k15=[win=100, lose=260, draw=0], CEC2022F5D10k15=[win=141, lose=0, draw=219], CEC2022F3D20k15=[win=82, lose=245, draw=33], CEC2022F3D10k15=[win=181, lose=0, draw=179], CEC2022F1D10k15=[win=134, lose=0, draw=226], CEC2022F1D20k15=[win=143, lose=0, draw=217], CEC2022F4D20k15=[win=143, lose=217, draw=0], CEC2022F2D20k15=[win=207, lose=153, draw=0], CEC2022F4D10k15=[win=108, lose=245, draw=7], CEC2022F5D20k15=[win=103, lose=163, draw=94]}
+ZOCMAES [win=1389, lose=1464, draw=747]
+	 Against:{NL-SHADE-RSP-MID=[win=189, lose=111, draw=0], jSObinexpEig=[win=72, lose=130, draw=98], S-LSHADE-DP=[win=158, lose=140, draw=2], Co-PPSO=[win=112, lose=122, draw=66], SPHH-Ensemble=[win=211, lose=89, draw=0], IMPML-SHADE=[win=84, lose=141, draw=75], NLSOMACLP=[win=108, lose=105, draw=87], EA4eigN100-10=[win=35, lose=157, draw=108], IUMOEAII=[win=189, lose=107, draw=4], MTT-SHADE=[win=78, lose=121, draw=101], NL-SHADE-LBC=[win=49, lose=136, draw=115], OMCSOMA=[win=104, lose=105, draw=91]}
+	 Problems:{CEC2022F2D10k15=[win=212, lose=116, draw=32], CEC2022F5D10k15=[win=63, lose=217, draw=80], CEC2022F3D20k15=[win=108, lose=147, draw=105], CEC2022F3D10k15=[win=10, lose=350, draw=0], CEC2022F1D10k15=[win=85, lose=132, draw=143], CEC2022F1D20k15=[win=114, lose=65, draw=181], CEC2022F4D20k15=[win=161, lose=199, draw=0], CEC2022F2D20k15=[win=174, lose=172, draw=14], CEC2022F4D10k15=[win=305, lose=50, draw=5], CEC2022F5D20k15=[win=157, lose=16, draw=187]}
+OMCSOMA [win=911, lose=1042, draw=1647]
+	 Against:{NL-SHADE-RSP-MID=[win=88, lose=87, draw=125], ZOCMAES=[win=105, lose=104, draw=91], jSObinexpEig=[win=34, lose=91, draw=175], S-LSHADE-DP=[win=10, lose=116, draw=174], Co-PPSO=[win=89, lose=80, draw=131], SPHH-Ensemble=[win=242, lose=58, draw=0], IMPML-SHADE=[win=94, lose=110, draw=96], NLSOMACLP=[win=77, lose=48, draw=175], EA4eigN100-10=[win=14, lose=111, draw=175], IUMOEAII=[win=89, lose=56, draw=155], MTT-SHADE=[win=38, lose=81, draw=181], NL-SHADE-LBC=[win=31, lose=100, draw=169]}
+	 Problems:{CEC2022F2D10k15=[win=168, lose=187, draw=5], CEC2022F5D10k15=[win=74, lose=0, draw=286], CEC2022F3D20k15=[win=99, lose=0, draw=261], CEC2022F3D10k15=[win=91, lose=0, draw=269], CEC2022F1D10k15=[win=42, lose=15, draw=303], CEC2022F1D20k15=[win=47, lose=22, draw=291], CEC2022F4D20k15=[win=99, lose=261, draw=0], CEC2022F2D20k15=[win=62, lose=260, draw=38], CEC2022F4D10k15=[win=106, lose=251, draw=3], CEC2022F5D20k15=[win=123, lose=46, draw=191]}
+NLSOMACLP [win=838, lose=1149, draw=1613]
+	 Against:{NL-SHADE-RSP-MID=[win=88, lose=86, draw=126], ZOCMAES=[win=105, lose=108, draw=87], jSObinexpEig=[win=38, lose=96, draw=166], S-LSHADE-DP=[win=5, lose=131, draw=164], Co-PPSO=[win=79, lose=83, draw=138], SPHH-Ensemble=[win=227, lose=73, draw=0], IMPML-SHADE=[win=79, lose=127, draw=94], EA4eigN100-10=[win=14, lose=121, draw=165], IUMOEAII=[win=87, lose=60, draw=153], MTT-SHADE=[win=39, lose=81, draw=180], NL-SHADE-LBC=[win=29, lose=106, draw=165], OMCSOMA=[win=48, lose=77, draw=175]}
+	 Problems:{CEC2022F2D10k15=[win=117, lose=243, draw=0], CEC2022F5D10k15=[win=71, lose=11, draw=278], CEC2022F3D20k15=[win=99, lose=0, draw=261], CEC2022F3D10k15=[win=90, lose=9, draw=261], CEC2022F1D10k15=[win=43, lose=0, draw=317], CEC2022F1D20k15=[win=50, lose=0, draw=310], CEC2022F4D20k15=[win=88, lose=272, draw=0], CEC2022F2D20k15=[win=116, lose=208, draw=36], CEC2022F4D10k15=[win=59, lose=298, draw=3], CEC2022F5D20k15=[win=105, lose=108, draw=147]}
+NL-SHADE-RSP-MID [win=991, lose=1766, draw=843]
+	 Against:{ZOCMAES=[win=111, lose=189, draw=0], jSObinexpEig=[win=55, lose=117, draw=128], S-LSHADE-DP=[win=6, lose=137, draw=157], Co-PPSO=[win=94, lose=206, draw=0], SPHH-Ensemble=[win=229, lose=71, draw=0], IMPML-SHADE=[win=119, lose=178, draw=3], NLSOMACLP=[win=86, lose=88, draw=126], EA4eigN100-10=[win=17, lose=137, draw=146], IUMOEAII=[win=99, lose=44, draw=157], MTT-SHADE=[win=59, lose=241, draw=0], NL-SHADE-LBC=[win=29, lose=270, draw=1], OMCSOMA=[win=87, lose=88, draw=125]}
+	 Problems:{CEC2022F2D10k15=[win=225, lose=54, draw=81], CEC2022F5D10k15=[win=27, lose=291, draw=42], CEC2022F3D20k15=[win=99, lose=81, draw=180], CEC2022F3D10k15=[win=91, lose=90, draw=179], CEC2022F1D10k15=[win=43, lose=138, draw=179], CEC2022F1D20k15=[win=50, lose=129, draw=181], CEC2022F4D20k15=[win=96, lose=264, draw=0], CEC2022F2D20k15=[win=252, lose=107, draw=1], CEC2022F4D10k15=[win=61, lose=299, draw=0], CEC2022F5D20k15=[win=47, lose=313, draw=0]}
+IUMOEAII [win=772, lose=1823, draw=1005]
+	 Against:{NL-SHADE-RSP-MID=[win=44, lose=99, draw=157], ZOCMAES=[win=107, lose=189, draw=4], jSObinexpEig=[win=34, lose=100, draw=166], S-LSHADE-DP=[win=1, lose=117, draw=182], Co-PPSO=[win=61, lose=238, draw=1], SPHH-Ensemble=[win=223, lose=77, draw=0], IMPML-SHADE=[win=98, lose=199, draw=3], NLSOMACLP=[win=60, lose=87, draw=153], EA4eigN100-10=[win=13, lose=117, draw=170], MTT-SHADE=[win=45, lose=241, draw=14], NL-SHADE-LBC=[win=30, lose=270, draw=0], OMCSOMA=[win=56, lose=89, draw=155]}
+	 Problems:{CEC2022F2D10k15=[win=225, lose=54, draw=81], CEC2022F5D10k15=[win=74, lose=130, draw=156], CEC2022F3D20k15=[win=99, lose=81, draw=180], CEC2022F3D10k15=[win=91, lose=90, draw=179], CEC2022F1D10k15=[win=43, lose=138, draw=179], CEC2022F1D20k15=[win=50, lose=129, draw=181], CEC2022F4D20k15=[win=5, lose=355, draw=0], CEC2022F2D20k15=[win=132, lose=180, draw=48], CEC2022F4D10k15=[win=28, lose=331, draw=1], CEC2022F5D20k15=[win=25, lose=335, draw=0]}
+SPHH-Ensemble [win=789, lose=2811, draw=0]
+	 Against:{NL-SHADE-RSP-MID=[win=71, lose=229, draw=0], ZOCMAES=[win=89, lose=211, draw=0], jSObinexpEig=[win=82, lose=218, draw=0], S-LSHADE-DP=[win=42, lose=258, draw=0], Co-PPSO=[win=69, lose=231, draw=0], IMPML-SHADE=[win=53, lose=247, draw=0], NLSOMACLP=[win=73, lose=227, draw=0], EA4eigN100-10=[win=42, lose=258, draw=0], IUMOEAII=[win=77, lose=223, draw=0], MTT-SHADE=[win=83, lose=217, draw=0], NL-SHADE-LBC=[win=50, lose=250, draw=0], OMCSOMA=[win=58, lose=242, draw=0]}
+	 Problems:{CEC2022F2D10k15=[win=110, lose=250, draw=0], CEC2022F5D10k15=[win=22, lose=338, draw=0], CEC2022F3D20k15=[win=6, lose=354, draw=0], CEC2022F3D10k15=[win=22, lose=338, draw=0], CEC2022F1D10k15=[win=0, lose=360, draw=0], CEC2022F1D20k15=[win=0, lose=360, draw=0], CEC2022F4D20k15=[win=142, lose=218, draw=0], CEC2022F2D20k15=[win=125, lose=235, draw=0], CEC2022F4D10k15=[win=336, lose=24, draw=0], CEC2022F5D20k15=[win=26, lose=334, draw=0]}

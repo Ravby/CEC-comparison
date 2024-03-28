@@ -11,7 +11,7 @@ This project relies on the EARS (Evolutionary Algorithm Rating System) framework
 ### Project Structure
 
 - **CEC_results**: Contains official result files obtained from the following sources:
-    - [CEC2017](https://github.com/P-N-Suganthan/CEC2017-BoundConstrained)
+    - [CEC2017](https://github.com/P-N-Suganthan/CEC2017-BoundContrained)
     - [CEC2021](https://github.com/P-N-Suganthan/2021-SO-BCO)
     - [CEC2022](https://github.com/P-N-Suganthan/2022-SO-BO)
 

@@ -46,7 +46,7 @@ public class RunCec2017 {
         //Paper ID 17106 (LSHADE-cnEpSin) strange format?
         //Paper ID E-17260 (MOS-SOCO2011) results for cec2017 missing only for 2010, 2012 and 2013?
 
-        /*HashMap<String, ArrayList<String>> playerRatings;
+        HashMap<String, ArrayList<String>> playerRatings;
         playerRatings = new HashMap<>();
         for (int k = 0; k < cec2017.k; k++) {
             Cec2017StoredBenchmark cec2017StoredBenchmark = new Cec2017StoredBenchmark(k);
@@ -81,7 +81,7 @@ public class RunCec2017 {
             }
             Util.writeToFile(experimentalResultsDir + File.separator + playerId + "_rating_interval_band.txt", sb.toString());
             sb.setLength(0);
-        }*/
+        }
 
         //reset run numbers to reuse the same algorithms
         for (NumberAlgorithm player : players) {

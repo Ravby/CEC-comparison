@@ -1,0 +1,12 @@
+60 stolpcev IGD|MCV IGD|MCV IGD|MCV IGD|MCV ...
+MCV - overall constraint violation (smaller MCV value is better)
+
+1000 vrstic
+
+The IGD values will be recorded once every 200 function evaluations. For example, if the maximum number of evaluations Max_FEs is 200000, then 1000 IGD values are saved.
+
+
+15 datotek = 15 zagonov
+
+če je stolpec MCV večji od 0 nastavi vrednost na 10e8 + MCV vrednost
+1907119.06052617

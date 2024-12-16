@@ -3,7 +3,8 @@ package si.um.feri.lpm;
 enum BenchmarkId {
     CEC2017,
     CEC2021,
-    CEC2022
+    CEC2022,
+    CEC2024
 }
 public class BenchmarkInfo {
     public String name;

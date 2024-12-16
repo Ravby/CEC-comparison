@@ -22,11 +22,17 @@ public class TransformResultsFromCecToEars {
         //file name format for CEC2022 and CEC2017: AlgorithmName_FunctionNo._D.txt
         //file name format for CEC2021: AlgorithmName_(Parametrized_Vector)_FunctionNo._D.txt
 
+        //CEC2024: 29 problems (files), 30D, 25 independent runs, MaxFEs = 10000 * D = 300000, every 10 * D (300) evaluations -> 1000 k values
+        //file name format for CEC2024: PaperID_FJ_Min_EV.mat where J is the FunctionNo
+        //some algorithms have 30 files (problems)
+        //L-SRTDE files has columns and rows reversed
+        //jSOa missing problem 2 but has problem 30 -> all files renamed by decreasing the number by 1
+
         //CEC2017 F2 has been excluded because it shows unstable behavior especially for higher dimensions
         //CEC2021 same weights for all dimensions
 
         //select benchmark
-        BenchmarkInfo benchmarkInfo = BenchmarkManager.get(BenchmarkId.CEC2021);
+        BenchmarkInfo benchmarkInfo = BenchmarkManager.get(BenchmarkId.CEC2017);
 
         String projectDirectory = System.getProperty("user.dir");
         File projectDirFile = new File(projectDirectory);
@@ -45,7 +51,7 @@ public class TransformResultsFromCecToEars {
                         int length = splitFileName.length;
                         String dim, functionNo, algorithmName, rotation = "";
 
-                        if(benchmarkInfo.id == BenchmarkId.CEC2022 || benchmarkInfo.id == BenchmarkId.CEC2017) {
+                        if(benchmarkInfo.id == BenchmarkId.CEC2024 ||benchmarkInfo.id == BenchmarkId.CEC2022 || benchmarkInfo.id == BenchmarkId.CEC2017) {
                             dim = splitFileName[length-1]; //dimension is at last index
                             functionNo = splitFileName[length-2]; //function number is at second last index
                             algorithmName = fileName.substring(0, fileName.length() - dim.length() - functionNo.length() - 2).replace("_", "-");
@@ -83,15 +89,16 @@ public class TransformResultsFromCecToEars {
                                 if(line.contains("\t")) {
                                     splitLine = line.split("\t");
                                 }
-                                else if(line.contains(" ")) {
-                                    splitLine = line.split(" ");
+                                else if(line.contains(",")) {
+                                    splitLine = line.split(",");
                                 }
                                 else {
-                                    splitLine = line.split(",");
+                                    splitLine = line.split(" ");
                                 }
                                 int runIndex = 0;
                                 for (String s : splitLine) {
                                     if (!s.isEmpty()) {
+
                                         try {
                                             if (s.contains("inf"))
                                                 results[kIndex][runIndex++] = Double.MAX_VALUE;
@@ -115,6 +122,8 @@ public class TransformResultsFromCecToEars {
                                 sb.append(results[i][j]).append("\n");
                             }
                             String newFileName;
+                            functionNo = functionNo.replace("F","");
+                            dim = dim.replace("D","");
                             if(benchmarkInfo.id == BenchmarkId.CEC2021)
                                 newFileName = algorithmName + "_" + benchmarkInfo.name + "F" + functionNo + "(" + rotation + ")" + "D" + dim + "k" + (i);
                             else

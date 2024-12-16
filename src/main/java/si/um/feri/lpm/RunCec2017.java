@@ -41,6 +41,8 @@ public class RunCec2017 {
         players.add(new DummyAlgorithm("TLBO-FL", algorithmResultsDir));
         players.add(new DummyAlgorithm("EBOwithCMAR", algorithmResultsDir));
         players.add(new DummyAlgorithm("PPSO", algorithmResultsDir));
+        players.add(new DummyAlgorithm("MOS-SOCO2013", algorithmResultsDir));
+        players.add(new DummyAlgorithm("MOS-SOCO2011", algorithmResultsDir));
 
         //fixed file names for IDEbestNsize: IDEbestNsize_D_FunctionNo. instead of IDEbestNsize_FunctionNo._D
         //Paper ID 17106 (LSHADE-cnEpSin) strange format?
